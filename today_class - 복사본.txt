@@ -1,2 +1,20 @@
 ### Pandas
+---
 
+ → 데이터 처리 라이브러리
+
+- Pandas의 핵심 자료 구조
+    - Series
+    - DataFrame
+
+- Pandas의 Series 자료형 만들기
+    - Series(리스트)
+    
+    ```python
+    score = Series([1000, 14000, 3000, 3000, 1000])
+    ```
+    
+
+- 연산 : 순서대로 x. 동일한 인덱스를 갖는 값 끼리만
+
+- Pandas의 DataFrame 객체 생성하기

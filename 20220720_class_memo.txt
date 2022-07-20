@@ -16,6 +16,8 @@ dat = Series([1,2,3,4], index = __ , columns = [—])
 
 --- team_df
 컬럼 : 'catanddong', 'toto', 'apple', 'gildong'
+- ‘catanddong’, ‘toto’ 선택하기
+    - team_df_n = team_df[[’catanddong’, ‘toto’]]
 
 ### iloc, loc
 iloc ->  데이터 선택 추출하는데 인덱스 번호를 이용해서 정보를 가져옴

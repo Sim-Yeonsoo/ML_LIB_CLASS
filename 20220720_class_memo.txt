@@ -1,0 +1,22 @@
+### Pandas review
+
+--- Pandas의 두가지 자료형
+Series : 1차원
+DataFrame : 2차원
+
+--- Series는 인덱스 정보를 가지고 있다.
+Series vs List
+
+→ 인덱스 (0, 1, 2, 3, 4, …)
+→ 날짜…
+
+--- Series에 파라미터
+인덱스 저장하는 파라미터
+dat = Series([1,2,3,4], index = __ , columns = [—])
+
+--- team_df
+컬럼 : 'catanddong', 'toto', 'apple', 'gildong'
+
+### iloc, loc
+iloc ->  데이터 선택 추출하는데 인덱스 번호를 이용해서 정보를 가져옴
+loc -> 인덱스를 이용해서 정보를 가져옴.
